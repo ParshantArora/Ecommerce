@@ -1,0 +1,29 @@
+{
+  "name": "com.ecommerce",
+  "version": "1.0.0",
+  "description": "Ecommerce website with node js and sql",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon --exec babel-node -- index.js"
+  },
+  "keywords": [
+    "hapi",
+    "sql",
+    "mysql"
+  ],
+  "author": "Parshant Nagpal",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.4.0",
+    "hapi-mysql": "^1.0.15",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.4",
+    "sequelize": "^4.37.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
