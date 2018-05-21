@@ -1,0 +1,22 @@
+
+start the postgre server 
+
+brew services start postgresql
+
+stop the postgre server 
+
+brew services stop postgresql
+
+
+
+creating database
+
+$ createdb Ecommerce
+$ psql -s Ecommerce
+
+create user  and assign password 
+# create user root password 'root';
+
+Grant all privillages to User 
+
+GRANT ALL PRIVILEGES ON DATABASE "Ecommerce" to root;

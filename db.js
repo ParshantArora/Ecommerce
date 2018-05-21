@@ -2,7 +2,7 @@
 const Sequelize = require('sequelize');
  const sequelize = new Sequelize('Ecommerce', 'root', 'root', {
     host: 'localhost',
-    dialect: 'mysql',
+    dialect: 'postgres',
     operatorsAliases: false,
   
     pool: {
