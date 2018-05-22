@@ -6,8 +6,9 @@ filename  : index.js
 
 
 
-import Rest from './rest'
-import Auth from './auth'
+import Rest from './rest';
+import Auth from './auth';
+import Inert from 'inert';
 export default [
 
   /*
@@ -22,6 +23,13 @@ export default [
   */
   {
     plugin: Rest,
+    options: {}
+  },
+  /*
+ Inert Plugin 
+  */
+  {
+    plugin: Inert,
     options: {}
   }
 

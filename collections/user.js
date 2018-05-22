@@ -1,3 +1,10 @@
+/*
+Author : Parshant Nagpal
+Description : User collection contains records of users
+filename  : user.js
+*/
+
+
 const Sequelize = require('sequelize');
 import sequelize from '../db';
 

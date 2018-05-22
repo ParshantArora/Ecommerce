@@ -21,11 +21,13 @@ export default {
                     .regex(/^([a-zA-Z_ ]){1,20}$/), 
                 middleName: Joi.string()
                     .trim()
+                    .optional()
                     .error(new Error('should be a valid middleName.'))
                     .label('firstName')
                     .regex(/^([a-zA-Z_ ]){1,20}$/), 
                 lastName: Joi.string()
                     .trim()
+                    .optional()
                     .error(new Error('should be a valid lastName.'))
                     .label('firstName')
                     .regex(/^([a-zA-Z_ ]){1,20}$/), 
@@ -61,6 +63,7 @@ export default {
                     .required(),
               profileImage : Joi.string()
               .trim()
+              .optional()
               .error(new Error('profileImage is required')),   
             }
         }
