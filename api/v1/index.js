@@ -5,5 +5,6 @@ filename  : index.js
 */
 
 import user from './user';
+import product from './product';
 
-export default [...user];
+export default [...user,...product];

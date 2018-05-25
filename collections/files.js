@@ -47,7 +47,7 @@ Files.bulkDataInsert = (payload) => {
 }
 Files.getFile = (condition)=>{
     console.log("condition",condition)
-    return Files.findOne(condition);
+    return Files.findOne({ where : condition});
 }
 Files.sync();
 export default Files;

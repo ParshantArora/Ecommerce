@@ -12,7 +12,7 @@ export default {
     config: {
         auth: false,
         validate: {
-            payload: {
+            payload: { 
                 firstName: Joi.string()
                     .required()
                     .trim()
